@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Détail du produit - PDF</title>
+    </head>
+    <body>
+        <h2>Détail du produit</h2>
+
+
+        <b>Identifiant :</b>
+        {{ material.id }}
+        <br/>
+        <b>Nom :</b>
+
+
+        {{ material.name }}
+        <br/>
+        <b>Description :</b>
+
+
+        {{ material.content }}
+        <br/>
+        <b>Prix :</b>
+
+
+        {{ material.price }}
+        €
+
+        <br/>
+        <b>Quantité :</b>
+
+
+        {{ material.quantity }}
+        <br/>
+        <b>Date d'ajout :</b>
+
+        {{ material.createdAt | date("d-m-Y à H:i") }}
+        <br/>
+
+
+    </body>
+</html>
