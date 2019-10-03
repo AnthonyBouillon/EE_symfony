@@ -3,6 +3,7 @@ if (window.innerWidth < 600) {
 }
 //console.log(window.innerWidth);
 $(document).ready(function () {
+    // Configuation du puglin jQuery Datatable
     $('#table').DataTable({
         "language": {
             "sSearch": "Rechercher :",
